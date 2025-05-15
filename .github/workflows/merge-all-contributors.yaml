@@ -1,0 +1,21 @@
+name: Merge All Contributors
+
+on:
+  push:
+    paths:
+      - ".all-contributorsrc"
+  workflow_call:
+  workflow_dispatch:
+
+jobs:
+  merge-contributors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: openclimatefix/merge-all-contributors@v1.0.3
+        with:
+          orgName: sgibson91-test-org
+        id: merge-contributors
+
+      - run: |
+          echo ${{ steps.merge-contributors.outputs.contributors }}
+  
