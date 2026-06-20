@@ -10,6 +10,9 @@ on:
 jobs:
   merge-contributors:
     runs-on: ubuntu-latest
+    permissions:
+       issues: write
+       pull-requests: write
     steps:
       - uses: the-turing-way/all-all-contributors@main
         with:
