@@ -1,9 +1,6 @@
 name: Merge All Contributors
 
 on:
-  push:
-    paths:
-      - ".all-contributorsrc"
   workflow_call:
   workflow_dispatch:
 
