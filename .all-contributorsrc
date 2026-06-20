@@ -1,26 +1,31 @@
-{
-  "files": [
-    "profile/README.md"
-  ],
-  "imageSize": 100,
-  "commit": false,
-  "commitType": "docs",
-  "commitConvention": "angular",
-  "contributors": [
-    {
-      "login": "BrainOnSilicon",
-      "name": "Sophia Batchelor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/42813259?v=4",
-      "profile": "http://www.brainonsilicon.com",
-      "contributions": [
-        "ideas"
-      ]
-    }
-  ],
-  "contributorsPerLine": 7,
-  "skipCi": true,
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "projectName": ".github",
-  "projectOwner": "sgibson91-test-org"
-}
+files:
+  - profile/README.md
+imageSize: 100
+commit: false
+commitType: docs
+commitConvention: angular
+contributors:
+  - login: sgibson91
+    name: Sarah Gibson
+    avatar_url: https://avatars.githubusercontent.com/u/44771837?v=4
+    profile: https://sgibson91.github.io/
+    contributions:
+      - bug
+  - login: JimMadge
+    name: JimMadge
+    avatar_url: https://avatars.githubusercontent.com/u/23616154?v=4
+    profile: https://github.com/JimMadge
+    contributions:
+      - infra
+  - login: BrainOnSilicon
+    name: Sophia Batchelor
+    avatar_url: https://avatars.githubusercontent.com/u/42813259?v=4
+    profile: http://www.brainonsilicon.com
+    contributions:
+      - ideas
+contributorsPerLine: 7
+skipCi: true
+repoType: github
+repoHost: https://github.com
+projectName: .github
+projectOwner: sgibson91-test-org
