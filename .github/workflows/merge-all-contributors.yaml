@@ -11,11 +11,12 @@ jobs:
   merge-contributors:
     runs-on: ubuntu-latest
     permissions:
-       issues: write
+       contents: write
        pull-requests: write
     steps:
       - uses: the-turing-way/all-all-contributors@main
         with:
           organisation: sgibson91-test-org
           target_repo: .github
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
