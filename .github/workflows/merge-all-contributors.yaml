@@ -19,7 +19,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - uses: the-turing-way/all-all-contributors@main
+      - uses: the-turing-way/all-all-contributors@refactor/local-git-operations
         with:
           organisation: sgibson91-test-org
           target_repo: .github
