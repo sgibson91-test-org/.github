@@ -19,6 +19,6 @@ jobs:
       - uses: the-turing-way/all-all-contributors@feat/generate-table
         with:
           organisation: ${{ github.repository_owner }}
-          target_repo: ${{ github.repository.name }}
+          target_repo: ${{ github.event.repository.name }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           head_branch: table-test
