@@ -21,3 +21,4 @@ jobs:
           organisation: ${{ github.repository_owner }}
           target_repo: ${{ github.repository.name }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          head_branch: table-test
