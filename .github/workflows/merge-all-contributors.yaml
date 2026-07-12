@@ -16,9 +16,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      - uses: the-turing-way/all-all-contributors@refactor/local-git-operations
+      - uses: the-turing-way/all-all-contributors@feat/generate-table
         with:
-          organisation: sgibson91-test-org
-          target_repo: .github
+          organisation: ${{ github.repository_owner }}
+          target_repo: ${{ github.repository.name }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-
